@@ -1,0 +1,16 @@
+.container {
+    max-width:960px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display:flex;
+    gap:2%;
+    flex-flow:wrap;
+}
+
+.flex-container > div {
+    border: 1px solid black;
+    padding:16px;
+    width:calc(96%/3);
+}
